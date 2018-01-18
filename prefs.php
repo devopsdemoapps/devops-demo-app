@@ -64,28 +64,17 @@ $conn->close(); ?>
         <div class="cover-container">
 
             <div class="inner cover">
-                <h1 class="cover-heading">Welcome to the DevOps Demo Application.</h1>
-                <p class="lead"><i>This app is used for demonstrating and testing various DevOps, CI, and CD concepts.</i></p>
-                <h3>Connection to MySQL DB:
-                    <?php
-                        if ($dbSuccess) {echo '<span class="label label-success">Success';}
-                        else {echo '<span class="label label-danger">Failure';}
-                    ?>
-                    </span>
-                </h3>
-                <h3>Environment: <span class="label label-info"><?php echo $config['environment'] ?></span></h3>
-                <h3>Color: <span class="label label-info"><?php echo $config['color'] ?></span></h3>
- 		<h3>Car: <span class="label label-info"><?php echo $config['car'] ?></span></h3>
-                <h3>Application Version: <span class="label label-info">1.1</span></h3>
-                <h3>Database Scripts Version: <?php
-                        if ($dbVersion) {echo '<span class="label label-info">'. $dbVersion;}
-                        else {echo '<span class="label label-danger">Failed to load version data';}
-                        ?></span></h3>
+                <h1 class="cover-heading">My Prefs</h1>
+                <p class="lead"><i>This page is used for demonstrating the usage of vars, templates and precedence rules.</i></p>
+   	        <h3>Color: <span class="label label-info"><?php echo $config['color'] ?></span></h3> 
+		<h3>Fruit: <span class="label label-info"><?php echo $config['fruit'] ?></span></h3>
+		<h3>Car: <span class="label label-info"><?php echo $config['car'] ?></span></h3>
+		<h3>Laptop: <span class="label label-info"><?php echo $config['laptop'] ?></span></h3>
             </div>
 
             <div class="mastfoot">
                 <div class="inner">
-                    <p>DevOps Demo application provided by the <a href="https://www.devopslibrary.com/">DevOps Library</a>.</p>
+                    <p>DevOps Demo application is customized by  <a href="https://www.schoolofdevops.com/">School of Devops</a>.</p>
                 </div>
             </div>
         </div>
