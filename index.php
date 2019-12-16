@@ -37,7 +37,7 @@ $conn->close(); ?>
     <meta name="author" content="">
     <link rel="icon" href="book.ico">
 
-    <title>DevOps Demo Application</title>
+    <title>Sample Application</title>
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap.min.css" rel="stylesheet">
@@ -64,8 +64,8 @@ $conn->close(); ?>
         <div class="cover-container">
 
             <div class="inner cover">
-                <h1 class="cover-heading">Welcome to the DevOps Demo Application v2.</h1>
-                <p class="lead"><i>This app is used for demonstrating and testing various DevOps, CI, and CD concepts.</i></p>
+                <h1 class="cover-heading">Welcome to the Sample Application v2.</h1>
+                <p class="lead"><i>This app is used for demonstrating and testing various openshift concepts.</i></p>
                 <h3>Connection to MySQL DB:
                     <?php
                         if ($dbSuccess) {echo '<span class="label label-success">Success';}
@@ -83,7 +83,7 @@ $conn->close(); ?>
 
             <div class="mastfoot">
                 <div class="inner">
-                    <p>DevOps Demo application provided by the <a href="https://www.devopslibrary.com/">DevOps Library</a>.</p>
+                    <p>Sample Demo application </p>
                 </div>
             </div>
         </div>
